@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         result=findViewById(R.id.result)
 
         btnCalc?.setOnClickListener {
-            var n1 = eNum2?.text.toString().toInt()
+            var n1 = eNum1?.text.toString().toInt()
             var n2 = eNum2?.text.toString().toInt()
             var cad=""
             (1..n2).forEach{
